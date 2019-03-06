@@ -41,7 +41,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
-    public static ReactApplicationContext reactApplicationContext;
+    public static ReactApplicationContext reactApplicationContext = null;
     private IWoyouService woyouService;
     private BitmapUtils bitMapUtils;
     private PrinterReceiver receiver=new PrinterReceiver();
